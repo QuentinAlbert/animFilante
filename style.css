@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.star{
+    background-color: #9C8EC4;
+    margin: 5px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: -100;
+}
+
+.solo1{
+    height: 10px;
+    width: 200px;
+    top: 2vh;
+    transform: translateX(-100vw);
+}
+
+.anim1{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+
+.solo2{
+    height: 10px;
+    width: 200px;
+    top: 12vh;
+    transform: translateX(-100vw);
+}
+
+
+.anim2{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+
+.solo3{
+    height: 10px;
+    width: 200px;
+    top: 20vh;
+    transform: translateX(-100vw);
+}
+
+.anim3{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+
+.solo4{
+    height: 10px;
+    width: 200px;
+    top: 30vh;
+    transform: translateX(-100vw);
+}
+.anim4{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+.solo5{
+    height: 10px;
+    width: 200px;
+    top: 45vh;
+    transform: translateX(-100vw);
+}
+.anim5{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+.solo6{
+    height: 10px;
+    width: 200px;
+    top: 58vh;
+    transform: translateX(-100vw);
+}
+.anim6{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+.solo7{
+    height: 10px;
+    width: 200px;
+    top: 70vh;
+    transform: translateX(-100vw);
+}
+.anim7{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+.solo8{
+    height: 10px;
+    width: 200px;
+    top: 82vh;
+    transform: translateX(-100vw);
+}
+.anim8{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+.solo9{
+    height: 10px;
+    width: 200px;
+    top: 90vh;
+    transform: translateX(-100vw);
+}
+.anim9{
+    animation: filante 1s linear;
+    animation-delay: 0s;
+}
+
+@keyframes filante{
+    to{
+        transform: translateX(120vw);
+    }
+}
+
+#return{
+    font-family: 'Righteous', cursive;
+}
+#return a{
+    text-decoration: none;
+}
+.return{
+    color: #d2d2d2;
+    text-shadow: 0.15vw 0.15vw #eeee08,
+                0.25vw 0.25vw #f8b356,
+                0.35vw 0.35vw #e24242;
+    font-size: 2vw;
+    position: fixed;
+    right: 0.5vw;
+    top: 0.1vw;
+}
